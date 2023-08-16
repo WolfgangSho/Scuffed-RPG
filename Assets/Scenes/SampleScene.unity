@@ -2445,6 +2445,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1007718143}
   - component: {fileID: 1007718144}
+  - component: {fileID: 1007718145}
   m_Layer: 0
   m_Name: PlayerHolder
   m_TagString: Untagged
@@ -2484,6 +2485,18 @@ MonoBehaviour:
   walkSpeed: 10
   backSpeed: 1
   rotationSpeed: 119
+--- !u!114 &1007718145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1007718142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b537b66dc8ddbb8468d4d13c8a758a9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1069364008
 GameObject:
   m_ObjectHideFlags: 0
